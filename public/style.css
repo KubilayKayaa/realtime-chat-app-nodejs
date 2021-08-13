@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+#chat-wrap {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+#chat-wrap h2 {
+  font-size: 23px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0085ad;
+}
+
+#chat-wrap #chat-window {
+  height: 400px;
+  overflow-y: auto;
+}
+
+#chat-wrap #chat-window #output p {
+  font-size: 15px;
+  padding: 12px;
+}
+
+#chat-wrap #chat-window #output p:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#chat-wrap #chat-window #output strong {
+  color: #0085ad;
+}
+
+#chat-wrap #chat-window #feedback p {
+  font-size: 13px;
+  padding: 12px;
+}
+
+#chat-wrap input {
+  padding: 10px 20px;
+  border: none;
+  border-top: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+}
+
+#chat-wrap button {
+  color: #fff;
+  background-color: #0085ad;
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  padding: 12px 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
